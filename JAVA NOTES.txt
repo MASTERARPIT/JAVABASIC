@@ -1,0 +1,63 @@
+_____________________________________________________________________________________________________________________________
+
+JAVA NOTES
+_____________________________________________________________________________________________________________________________
+
+-->BASICS
+
+public class (file_name){                      // THIS CODE IS CALLED BOILERPLATE CODE
+                                               // i.e WRITTEN ALWAYS
+           public static void main(String args[]){
+
+               CODE WRITTEN HERE
+
+
+           }
+  }
+
+_____________________________________________________________________________________________________________________________
+
+How to get output in java:-
+
+OUTPUT:
+
+syntax:-  System.out.print("");
+          System.out.println("");  //next line print
+                                   // \n is used for next line
+_____________________________________________________________________________________________________________________________
+PRINT PATTERN
+
+syntax:
+
+System.out.println("*****");
+Syatem.out.println("****");
+System.out.println("***");
+System.out.println("**");
+System.out.println("*");
+
+_____________________________________________________________________________________________________________________________
+
+VARIABLES:-
+Java is atyped language.
+two type of dat type:
+1. primitive
+int,double,byte,short,char,boolen,long,float
+2- non primitive
+string,array,class,object,interface
+
+_____________________________________________________________________________________________________________________________
+
+input_output-
+
+example--
+
+Scanner sc = new Scanner(System.in);
+String name = sc.next();
+System.out.println(name);
+
+next- is used to get input of singe word
+nextline- is used to get input of complete line
+
+
+
+

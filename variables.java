@@ -1,11 +1,13 @@
 public class variables {
     public static void main(String[] args) {
         String name = "arpit";
-        int age = 20;
-        double price = 1000000.99;
-        System.out.println(age);
+        int a= 20,b=19,sum;
+        double price = 25.99;
+        sum=age+b;
+        System.out.println(a);
         System.out.println(name);
         System.out.println(price);
+        System.out.println(sum);
 
     }
 
