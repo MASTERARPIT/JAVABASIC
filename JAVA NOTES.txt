@@ -57,6 +57,49 @@ System.out.println(name);
 
 next- is used to get input of singe word
 nextline- is used to get input of complete line
+nextInt- inter value input
+_____________________________________________________________________________________________________________________________
+
+Conditional Statement
+
+if,else
+else if
+switch
+break
+
+-->  switch( ){
+  case 1:
+  statements;
+  break;
+
+  case 2:
+    .
+    .
+    .
+    .
+    .
+  default;
+}
+
+_____________________________________________________________________________________________________________________________
+
+"We can , we should & we will"
+
+Loops in JAVA:
+
+1. for Loops
+ 
+ syntax:-
+
+for(initilizze,condition,updation){
+
+  statements
+
+}
+
+
+
+
 
 
 
