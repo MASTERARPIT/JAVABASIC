@@ -10,10 +10,11 @@ public class character_pattern {
                 System.out.print(ch);
                 ch++;
             }
-            System.out.println(" ");
+            System.out.println("");
             
         }
         
     }
+    
     
 }

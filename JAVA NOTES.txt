@@ -160,40 +160,49 @@ inner loop --> column(sideways)
    1 2 3
    1 2 3 4
    1 2 3 4 5
-    
+
+
+7. Character PATTERN
+
+   A
+   B C
+   D E F 
+   G H I J 
+   K L M N O
   
 
 _____________________________________________________________________________________________________________________________
 
+--> FUNCTIONS/Methods
+
+syntax:-
+
+
+returnType name(){
+  //body
+  return statements;
+
+}
+
+
+--> FUNCTION with Parameters
+
+returnType name(type param1,type param2){
+
+  //body
+  return statements;
+}
 
 
 
+-->what happend in memory?
 
+when sunction calls some memory get resrved in the form of stack.
 
+(call stack)
+_____________________________________________________________________________________________________________________________
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+CALL BY VALUE (SWAP)
 
 
 
