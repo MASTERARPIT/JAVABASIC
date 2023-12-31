@@ -205,6 +205,8 @@ ________________________________________________________________________________
 
 CALL BY VALUE (SWAP)
 java always call by value.
+--> the copy of original variable get pass to the function created(call function)
+--> their is no change in original value.(Function call)
 
 
 
