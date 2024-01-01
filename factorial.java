@@ -11,7 +11,7 @@ public class factorial{
             else{
                 fact = fact*n;
                 n--;
-                System.out.println(fact);  
+                
             }
             
             
