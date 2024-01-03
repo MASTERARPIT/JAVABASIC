@@ -209,5 +209,8 @@ java always call by value.
 --> their is no change in original value.(Function call)
 
 
+-->Function Overloading
 
+Multiple function with the same name but different paramerets.
+(In function overloading change in parameters happend not in the function)
 
