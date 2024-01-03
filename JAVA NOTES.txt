@@ -214,3 +214,19 @@ java always call by value.
 Multiple function with the same name but different paramerets.
 (In function overloading change in parameters happend not in the function)
 
+
+_____________________________________________________________________________________________________________________________
+
+--> OOPS CONCEPTS
+
+new keyword- it will works as an heep due to which some space get 
+allocated in the memory according to the objects.
+()->constructors 
+
+1. class
+
+
+_____________________________________________________________________________________________________________________________
+
+Try and Catch(exceptions calculation)
+
