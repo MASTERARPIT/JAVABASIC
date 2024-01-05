@@ -229,4 +229,62 @@ allocated in the memory according to the objects.
 _____________________________________________________________________________________________________________________________
 
 Try and Catch(exceptions calculation)
+Syntax:
+
+try{
+
+}
+catch(Exception ){
+
+}
+NOTE--> lexograpgically means relating to dictionaries, or to the writing, editing, or compiling of dictionaries.
+used as -> int i= a.compareTo(b);
+
+charAt is used to acces the String character.
+_____________________________________________________________________________________________________________________________
+
+Array in java-
+
+How to initilize --> int[] array;
+
+Allocating memory --> array = new int[size];
+
+initilizing element --> array[0] = value;
+
+accessing the elements of array --> 
+
+for(int i =0 ; i<array.length; i++){
+  System.out.println(array[i]);
+}
+
+
+
+User_Input-->(Taking input of element and array size from the user)
+
+Scanner sc = new Scanner (System.in);
+
+// enter the size of the array(User_Input)
+
+int Arr_size=0;
+if(sc.hasNextInt()){  // hasNextInt() ,Method returnif the next token in the scanner input can be assumed as int value.
+  Arr_size = sc.nextInt();
+}
+
+int[] arr = new int[Arr_size];
+System.out.println("eneter the elements of the array-");
+
+for(int i=0;i<Arr_size;i++){
+  if(sc.hasNextInt()){
+    arr[i]=sc.nextInt();
+  }
+}
+
+// the element of array(accessing)
+
+for(int i =0 ; i<array.length; i++){
+  System.out.print(array[i]+" ");
+}
+
+
+_____________________________________________________________________________________________________________________________
 
