@@ -228,6 +228,7 @@ allocated in the memory according to the objects.
 
 _____________________________________________________________________________________________________________________________
 
+
 Try and Catch(exceptions calculation)
 Syntax:
 
@@ -237,13 +238,51 @@ try{
 catch(Exception ){
 
 }
+
+
+
+_____________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________
+
+Strings are immutable i.e. we cannot change the string after we create it.
+
 NOTE--> lexograpgically means relating to dictionaries, or to the writing, editing, or compiling of dictionaries.
 used as -> int i= a.compareTo(b);
 
-charAt is used to acces the String character.
+Substring-->example
+
+String s=""
+start=""
+end=""
+String new_s=s.substring(start,end);// give the substring
+
+-->charAt is used to acces the String character.
+for(int i=0;i<string.length();i++){
+  system.out.print(s.charAt(i)+" ");
+}
+
+concatenation-> to add two string
+compare String = s1.compareTo(s2);(on the basic of lexograpgic order)
+
+
+
+String builder-->
+StringBuilder sb = new StringBuilder("String");
+System.out.print(sb);
+
+sb.insert(2,n);
+System.out.print(sb);
+
+sb.delete(2,3);
+System.out.println(sb);
+
+sb.append(""); --> to add element at the end.
+
+_____________________________________________________________________________________________________________________________
 _____________________________________________________________________________________________________________________________
 
-Array in java-
+
+Array in java
 
 How to initilize --> int[] array;
 
@@ -284,6 +323,10 @@ for(int i=0;i<Arr_size;i++){
 for(int i =0 ; i<array.length; i++){
   System.out.print(array[i]+" ");
 }
+
+To get element of the array we can also use--> array.get(index or i);
+
+
 
 
 _____________________________________________________________________________________________________________________________
