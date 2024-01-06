@@ -1,7 +1,7 @@
-_____________________________________________________________________________________________________________________________
+__________________________________________________________________________________________________________
 
 JAVA NOTES
-_____________________________________________________________________________________________________________________________
+__________________________________________________________________________________________________________
 
 -->BASICS
 
@@ -15,7 +15,7 @@ public class (file_name){                      // THIS CODE IS CALLED BOILERPLAT
            }
   }
 
-_____________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________
 
 How to get output in java:-
 
@@ -24,7 +24,7 @@ OUTPUT:
 syntax:-  System.out.print("");
           System.out.println("");  //next line print
                                    // \n is used for next line
-_____________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________
 PRINT PATTERN
 
 syntax:
@@ -35,7 +35,7 @@ System.out.println("***");
 System.out.println("**");
 System.out.println("*");
 
-_____________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________
 
 VARIABLES:-
 Java is atyped language.
@@ -45,7 +45,7 @@ int,double,byte,short,char,boolen,long,float
 2- non primitive
 string,array,class,object,interface
 
-_____________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________
 
 input_output-
 
@@ -58,7 +58,7 @@ System.out.println(name);
 next- is used to get input of singe word
 nextline- is used to get input of complete line
 nextInt- inter value input
-_____________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________
 
 Conditional Statement
 
@@ -81,7 +81,7 @@ break
   default;
 }
 
-_____________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________
 
 
 "We can , we should & we will"
@@ -113,7 +113,7 @@ do{
 
 
 
-_____________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________
 PATTERN
 
 outer loop --> row(downward)
@@ -172,7 +172,7 @@ inner loop --> column(sideways)
    K L M N O
   
 
-_____________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________ 
 
 --> FUNCTIONS/Methods
 
@@ -201,7 +201,7 @@ returnType name(type param1,type param2){
 when sunction calls some memory get resrved in the form of stack.
 
 (call stack)
-_____________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________
 
 CALL BY VALUE (SWAP)
 java always call by value.
@@ -215,7 +215,7 @@ Multiple function with the same name but different paramerets.
 (In function overloading change in parameters happend not in the function)
 
 
-_____________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________
 
 --> OOPS CONCEPTS
 
@@ -226,7 +226,7 @@ allocated in the memory according to the objects.
 1. class
 
 
-_____________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________
 
 
 Try and Catch(exceptions calculation)
@@ -241,8 +241,8 @@ catch(Exception ){
 
 
 
-_____________________________________________________________________________________________________________________________
-_____________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________
+___________________________________________________________________________________________________________
 
 Strings are immutable i.e. we cannot change the string after we create it.
 
@@ -278,8 +278,8 @@ System.out.println(sb);
 
 sb.append(""); --> to add element at the end.
 
-_____________________________________________________________________________________________________________________________
-_____________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________ 
+___________________________________________________________________________________________________________
 
 
 Array in java
@@ -327,7 +327,135 @@ for(int i =0 ; i<array.length; i++){
 To get element of the array we can also use--> array.get(index or i);
 
 
+___________________________________________________________________________________________________________ 
+___________________________________________________________________________________________________________ 
 
 
-_____________________________________________________________________________________________________________________________
+Dictionaries::
+
+Dictionary is the list of keyvalues pairs. we can store,retrive,remove,get and put values in the dictionary by using
+the java dictionary class.
+dictionary class == hastable class
+
+it maps the keys to the value
+
+note that every key and value is an object and any non-null object can be used as akey and a value.
+
+example->
+
+// creating a dictionary
+
+Dictionary dict = new Hastable();
+
+using dictionary.put() Method
+
+// adding value in the dictionary 
+
+dict.put(101,"arpit");
+dict.put(102,"fantastic");
+
+// to print
+
+System.out.print(dict);
+
+// to get size
+
+System.out.println("sizeis"+dict.size());
+
+// to retrive value
+
+System.out.println("the value of specific key"+dict.get(102));
+
+// empty --> it return true if the dictionary is empty else false
+
+System.out.println("empty or not\n"+dictr.isEmpty());
+
+
+// to remove
+
+System.out.println("removed value is"+ dict.remove(102));
+
+
+
+Difference Between the HashMap and Dictionary Class
+The Java HashMap class and the Dictionary class both perform a similar function. The only difference is 
+that HashMap implements the Map Interface while the Dictionary class does not. According to Java documentation, 
+the Dictionary class is no longer in use because it is outdated. Instead of the Dictionary class, the HashMap 
+class is used. Since we can say that HashMap is a type of dictionary.
+
+
+___________________________________________________________________________________________________________
+
+Maps::
+
+
+A map contains values on the basis of key, i.e. key and value pair. Each key and value pair is known as an entry.
+A Map contains unique keys.
+
+A Map is useful if you have to search, update or delete elements on the basis of a key.
+
+
+old Method
+
+//Non-generic  
+import java.util.*;  
+public class MapExample1 {  
+public static void main(String[] args) {  
+    Map map=new HashMap();  
+    //Adding elements to map  
+    map.put(1,"Amit");  
+    map.put(5,"Rahul");  
+    map.put(2,"Jai");  
+    map.put(6,"Amit");  
+    //Traversing Map  
+    Set set=map.entrySet();//Converting to Set so that we can traverse  
+    Iterator itr=set.iterator();  
+    while(itr.hasNext()){  
+        //Converting to Map.Entry so that we can get key and value separately  
+        Map.Entry entry=(Map.Entry)itr.next();  
+        System.out.println(entry.getKey()+" "+entry.getValue());  
+    }  
+}  
+}  
+
+
+New Style::
+
+Map<Integer,String> map = new HashMap<Integer,String>();
+
+map.put(100,"amit");
+map.put(102,"vijay");
+
+// elements can traverse in any order
+
+for(Map.Entry m:map.entrySet()){
+  System.out.println(m.getKey()+" "+m.getValue());
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
