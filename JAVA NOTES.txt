@@ -278,6 +278,9 @@ System.out.println(sb);
 
 sb.append(""); --> to add element at the end.
 
+parseInt()--> used to convert number represented as the string into integer type.
+
+
 ___________________________________________________________________________________________________________ 
 ___________________________________________________________________________________________________________
 
@@ -484,6 +487,35 @@ HashMap<Integer, Integer> hmap = new HashMap<>();
             hmap.put(a, b);
 
             System.out.println(hmap.put(a, b));
+
+
+__________________________________________________________________________________________________________
+
+Regex:-
+
+The Java Regex or Regular Expression is an API to define a pattern for searching or manipulating strings.
+
+It is widely used to define the constraint on strings such as password and email validation. After learning
+Java regex tutorial, you will be able to test your regular expressions by the Java Regex Tester Tool.
+
+exemple-->
+
+import java.util.regex.*;  
+public class RegexExample1{  
+public static void main(String args[]){  
+//1st way  
+Pattern p = Pattern.compile(".s");//. represents single character  
+Matcher m = p.matcher("as");  
+boolean b = m.matches();  
+  
+//2nd way  
+boolean b2=Pattern.compile(".s").matcher("as").matches();  
+  
+//3rd way  
+boolean b3 = Pattern.matches(".s", "as");  
+  
+System.out.println(b+" "+b2+" "+b3);  
+}}  
 
 
 
