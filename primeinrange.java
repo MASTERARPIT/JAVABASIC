@@ -38,7 +38,7 @@ public class primeinrange {
                 System.out.print(i+" ");
             }
         }
-        System.out.print("arpit");
+        System.out.print("Aab thoda thoda function smaj a raha");
     }
 
     public static void main(String[] args) {
