@@ -520,9 +520,45 @@ boolean b3 = Pattern.matches(".s", "as");
 System.out.println(b+" "+b2+" "+b3);  
 }}  
 
+__________________________________________________________________________________________________________
+
+ARRAYS--
 
 
+List of elements of the same type placed in contiguous memory location.
 
+Operation in arrays-
+
+create
+input
+output
+update
+
+
+Static:- cannot change value during runtime
+
+
+1. Creating an Array
+
+dataType arrayname[]= new dataType[size];
+
+eg.
+
+int number[]=new int[45];
+
+int number[]={1,2,3};
+
+int morenumner[]={1,2,3,4,5};
+
+String fruits[]={"apple","mango","graps"};
+
+
+Passing arrays as argument:
+
+int arr[]=new int[arr_size];
+        System.out.println("Enter the element in the array");
+        for(i=0;i<arr.length;i++)
+            arr[i]=sc.nextInt();
 
 
 
