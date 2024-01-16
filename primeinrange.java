@@ -2,7 +2,7 @@ import java.util.*;
 import java.math.*;  
 
 
-
+// we can use isprobebleprime for big integer to determine prime number.
 
 public class primeinrange {
     // public static boolean isPrime(int n){
