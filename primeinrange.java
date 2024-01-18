@@ -51,3 +51,5 @@ public class primeinrange {
         // System.out.println("prime number::"+isPrime(n));
     }
 }
+
+
