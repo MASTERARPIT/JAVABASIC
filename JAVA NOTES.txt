@@ -561,6 +561,8 @@ int arr[]=new int[arr_size];
             arr[i]=sc.nextInt();
 
 
+2D array::(tabulation)
+
 
 
 
