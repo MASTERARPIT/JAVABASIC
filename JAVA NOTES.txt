@@ -563,16 +563,58 @@ int arr[]=new int[arr_size];
 
 2D array::(tabulation)
 
+__________________________________________________________________________________________________________
 
+ArrayList(Collection framework)
 
+1.size variable
+2.only store objects
+3.heap concept memory allocation
 
+function of arrList::
 
+add,get,modify(add in between),delete/remove,iterate(operation)
 
+import java.util.ArrayList;
 
+define::
 
+ArrayList<Integer> list = new ArrayList<Integer>();
+ArrayList<String> list1 = new ArrayList<String>();
 
+// Add elements
 
+list.add(0);
+list.add(2);
+list.add(3);
 
+// get element
+
+int element =list.get(0);
+system.out.print(element);
+
+// to add element in between
+
+list.add(1,1);
+
+//set element
+list.set(0,5);
+
+//delete/remove element
+list.remove(3);
+
+//size
+int size=list.size();
+
+//Loops
+for(int i=0;i<list.size;i++){
+  system.out.print(list.get(i));
+}
+
+// sorting
+
+Collections.sort(list); 
+System.out.print(list);
 
 
 
