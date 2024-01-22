@@ -1,24 +1,32 @@
+import java.io.*;
 import java.util.*;
 import java.util.ArrayList;
 
-public class arraylist {
+public class arraylist{
 
     public static void main(String[] args) {
-        ArrayList<Integer> list = new ArrayList<>();
-
         Scanner sc = new Scanner(System.in);
-        int n=sc.nextInt();
+        ArrayList<Integer> list=new ArrayList<>();
+        
+        int n= sc.nextInt();
         for(int i=0;i<n;i++){
             list.add(sc.nextInt());
         }
-        System.out.println(list);
-        System.out.println(list.size());
-        System.out.println(list.get(3));
-        for(int i=0;i<n;i++){
-            list.get(i);
+        int q= sc.nextInt();
+        for(int i=0;i<q;i++){
+            String s=sc.next();
+            if(s.equals("Insert")){
+                int a=sc.nextInt();
+                int v=sc.nextInt();
+                list.add(a,v);
+            }else if(s.equals("Delete")){
+                int a=sc.nextInt();
+                list.remove(a);
+            }
         }
-        System.out.println(list);
+        for(int item:list){
+        System.out.print(item+" ");
+            
+        }
     }
-
-    
 }

@@ -257,6 +257,7 @@ end=""
 String new_s=s.substring(start,end);// give the substring
 
 -->charAt is used to acces the String character.
+
 for(int i=0;i<string.length();i++){
   system.out.print(s.charAt(i)+" ");
 }
